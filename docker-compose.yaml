@@ -3,7 +3,7 @@ services:
   kanboard:
     image: kanboard/kanboard:latest
     ports:
-      - ":80"
+      - "80:80"
       - "443:443"
     volumes:
       - kanboard_data:/var/www/app/data
